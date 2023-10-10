@@ -1,0 +1,51 @@
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  height: 200px; /* Adjust this as needed */
+}
+.box{ 
+width: 620px; /* Set the width of the box */
+  height: 200px; /* Set the height of the box */
+  position: absolute; /* Adjust this based on your needs */
+  top: 340px; /* Adjust the top position in pixels */
+  left: 1200px; /* Adjust the left position in pixels */
+  font-color: #fff; /* Set the font
+  background-color: #161616; /* Set the background color */
+  border: 2px solid #161616; /* Add a border */
+  padding: 10px; /* Add padding inside the box */
+  font-size: 20px; /* Set the font size for the text */
+  font-weight: bold; /* Set the
+  font-style: Drive Super-Italic Italic; /* Set the font
+  
+  text-align: center; /* Center-align the text */
+  }
+
+.napis {
+  width: 700px; /* Adjust the image width */
+  height: 400px;
+  margin-right: 0; /* Initial position */
+  transition: margin 2.5s ease; /* Add a transition for smooth movement */
+  position: absolute; /* Adjust this based on your needs */
+  top: 10px; /* Adjust the top position in pixels */
+  left: 1200px; /* Adjust the left position in pixels */
+  /* Other styles for the image's position */
+  /* You can use JavaScript to change the margin-left value to move the image left and right */
+}
+
+.napis:hover {
+  margin-left: 100px; /* Adjust the amount to move the image right on hover */
+}
+.opis {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #161616;
+position: relative;
+  top: 440px; /* Adjust the top position in pixels */
+  left: 1000px; /* Adjust the left position in pixels */
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
